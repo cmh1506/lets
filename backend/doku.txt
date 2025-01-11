@@ -1,0 +1,16 @@
+npm i -D typescript @types/express @types/node
+npm i express dotenv
+npx ts-node ./app.ts
+
+
+User
+LoggedInUser 
+  - has a User
+  - has a client
+
+ChatParticipation
+  - has a User
+  - has isChatting
+
+Chat 
+  - Collection of ChatParticipations eg personal chat event chat 
